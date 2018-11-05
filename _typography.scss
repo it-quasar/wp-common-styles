@@ -1,0 +1,69 @@
+/*!
+ * СТИЛИ ТИПОГРАФИКИ
+ */
+
+/*!
+ * Общие стили для всех заголовков
+ */
+/* stylelint-disable-next-line */
+@mixin header() { }
+
+/*!
+ * Стили для заголовков 1 уровня
+ */
+/* stylelint-disable-next-line */
+@mixin h1() { }
+
+/*!
+ * Стили для заголовков 2 уровня
+ */
+/* stylelint-disable-next-line */
+@mixin h2() { }
+
+/*!
+ * Стили для заголовков 3 уровня
+ */
+/* stylelint-disable-next-line */
+@mixin h3() { }
+
+/*!
+ * Стили для заголовков 4 уровня
+ */
+/* stylelint-disable-next-line */
+@mixin h4() { }
+
+/*!
+ * Стили для заголовков 5 уровня
+ */
+/* stylelint-disable-next-line */
+@mixin h5() { }
+
+/*!
+ * Стили для заголовков 6 уровня
+ */
+/* stylelint-disable-next-line */
+@mixin h6() { }
+
+/*!
+ * Стили для абзацев
+ */
+/* stylelint-disable-next-line */
+@mixin p() { }
+
+/*!
+ * Стили для ссылок
+ */
+/* stylelint-disable-next-line */
+@mixin a() { }
+
+/*!
+ * Стили для жирного текста
+ */
+/* stylelint-disable-next-line */
+@mixin b() { }
+
+/*!
+ * Стили для курсивного текста
+ */
+/* stylelint-disable-next-line */
+@mixin i() { }

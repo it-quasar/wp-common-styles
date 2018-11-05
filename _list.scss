@@ -1,0 +1,59 @@
+/*!
+ * СТИЛИ СПИСКОВ
+ */
+
+/*!
+ * Стили маркированного списка
+ */
+/* stylelint-disable-next-line */
+@mixin ul() { }
+
+/*!
+ * Стили элемента маркированного списка
+ */
+/* stylelint-disable-next-line */
+@mixin ul-li() { }
+
+/*!
+ * Стили нумерованного списка
+ */
+/* stylelint-disable-next-line */
+@mixin ol() { }
+
+/*!
+ * Стили элемента нумерованного списка
+ */
+/* stylelint-disable-next-line */
+@mixin ol-li() { }
+
+/*!
+ * Стили маркированного списка на 2 уровне вложенности
+ */
+/* stylelint-disable-next-line */
+@mixin ul-level-2() {
+  @include ul;
+}
+
+/*!
+ * Стили элементов маркированного списка на 2 уровне вложенности
+ */
+/* stylelint-disable-next-line */
+@mixin ul-li-level-2() {
+  @include ul-li;
+}
+
+/*!
+ * Стили нумерованного списка на 2 уровне вложенности
+ */
+/* stylelint-disable-next-line */
+@mixin ol-level-2() {
+  @include ol;
+}
+
+/*!
+ * Стили элементов нумерованного списка н 2 уровне вложенности
+ */
+/* stylelint-disable-next-line */
+@mixin ol-li-level-2() {
+  @include ol-li;
+}
