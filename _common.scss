@@ -17,6 +17,12 @@
       @include single-img;
     }
 
+    &__div.wp-caption {
+      #{$prefix}__paragraph {
+        @include single-img-caption;
+      }
+    }
+
     // ТИПОГРАФИКА
 
     &__header {
@@ -47,7 +53,7 @@
       }
     }
 
-    &__paragraph {
+    &__paragraph:not(.wp-caption-text) {
       @include p;
     }
 
@@ -138,6 +144,12 @@
 
     img {
       @include single-img;
+    }
+
+    dl.wp-caption {
+      dd {
+        @include single-img-caption;
+      }
     }
 
     // ТИПОГРАФИКА
